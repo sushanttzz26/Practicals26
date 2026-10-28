@@ -20,13 +20,14 @@ class Record extends Student {
     }
 }
 
-class Practical10 {
+public class Main {
     public static void main(String[] args) {
         ArrayList<Student> list = new ArrayList<>();
         list.add(new Record("Ram"));
         list.add(new Record("Shyam"));
 
-        for (Student s : list)
+        for (Student s : list) {
             s.display();
+        }
     }
 }
