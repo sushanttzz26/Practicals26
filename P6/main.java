@@ -1,5 +1,4 @@
-
-package practical6;
+import java.util.*;
 
 class InvalidAmountException extends Exception {
     InvalidAmountException(String message) {
@@ -46,7 +45,7 @@ class Account {
     }
 }
 
-public class Practical6 {
+public class Main {
     public static void main(String[] args) {
         try {
             Account a = new Account(101, "Ram", 5000);
