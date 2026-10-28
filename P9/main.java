@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Practical9 {
+public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> a = new ArrayList<>();
         a.add(10);
