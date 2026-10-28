@@ -1,4 +1,4 @@
-class Practical8 {
+public class Practical8 {
     public static void main(String[] args) {
         int[] stack = new int[5];
         int top = -1;
